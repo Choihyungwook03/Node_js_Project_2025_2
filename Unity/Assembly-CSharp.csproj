@@ -61,8 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UnityToNode.cs" />
+    <Compile Include="Assets\Scripts\Game\GameAPI.cs" />
     <Compile Include="Assets\Scripts\basicMain.cs" />
     <Compile Include="Assets\Scripts\basicProtocols.cs" />
+    <Compile Include="Assets\Scripts\Game\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\Game\PlanetModel.cs" />
     <Compile Include="Assets\Scripts\Protocols.cs" />
   </ItemGroup>
   <ItemGroup>
