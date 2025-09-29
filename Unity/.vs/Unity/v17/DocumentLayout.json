@@ -3,11 +3,31 @@
   "WorkspaceRootPath": "D:\\Node_js_Project_2025_2\\Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2\\unity\\assets\\scripts\\game\\gameapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\game\\gameapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gameapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2\\unity\\assets\\scripts\\game\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\game\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2\\unity\\assets\\scripts\\game\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2\\unity\\assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\protocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\protocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\unitytonode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitytonode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\game\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\planetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\unitytonode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitytonode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\basicprotocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicprotocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\basicmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\protocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\protocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2\\Unity\\assets\\scripts\\basicprotocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicprotocols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +50,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameManager.cs",
+              "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T02:12:31.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameController.cs",
+              "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\GameController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwCkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T02:05:13.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameView.cs",
+              "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameView.cs",
+              "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\GameView.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T01:53:30.788Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,75 +99,79 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameAPI.cs",
               "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\GameAPI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\GameAPI.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAowDMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T01:57:50.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PlayerModel.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\PlayerModel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PlayerModel.cs",
               "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\PlayerModel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\PlayerModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowBsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T01:54:47.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PlanetModel.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\PlanetModel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PlanetModel.cs",
               "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Game\\PlanetModel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\PlanetModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T01:52:14.965Z"
+              "WhenOpened": "2025-09-22T01:52:14.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UnityToNode.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\UnityToNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnityToNode.cs",
               "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\UnityToNode.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnityToNode.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwD4AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwD4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T01:08:53.621Z"
+              "WhenOpened": "2025-09-15T01:08:53.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Protocols.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Protocols.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Protocols.cs",
               "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\Protocols.cs",
               "RelativeToolTip": "Assets\\Scripts\\Protocols.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T01:02:01.202Z"
+              "WhenOpened": "2025-09-15T01:02:01.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "basicMain.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\basicMain.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\basicMain.cs",
               "ToolTip": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\basicMain.cs",
               "RelativeToolTip": "Assets\\Scripts\\basicMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvw0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T03:02:24.96Z"
+              "WhenOpened": "2025-09-08T03:02:24.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "basicProtocols.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2\\Unity\\Assets\\Scripts\\basicProtocols.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\basicProtocols.cs",

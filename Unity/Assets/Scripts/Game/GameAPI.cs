@@ -38,7 +38,7 @@ public class GameAPI : MonoBehaviour
         var requestData = new { name = playerName, password = password };
         string jsonData = JsonConvert.SerializeObject(requestData);
 
-        using (UnityWebRequest request = new UnityWebRequest($"{baseUrl}/register", "POST"))
+        using (UnityWebRequest request = new UnityWebRequest($"{baseUrl}/login", "POST"))
         {
             byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
             request.uploadHandler = new UploadHandlerRaw(bodyRaw);
