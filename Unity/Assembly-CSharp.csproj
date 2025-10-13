@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game\GameController.cs" />
     <Compile Include="Assets\Scripts\UnityToNode.cs" />
+    <Compile Include="Assets\Scripts\Auth\AuthManager.cs" />
     <Compile Include="Assets\Scripts\Game\GameAPI.cs" />
     <Compile Include="Assets\Scripts\basicMain.cs" />
     <Compile Include="Assets\Scripts\basicProtocols.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Scripts\Game\PlanetModel.cs" />
     <Compile Include="Assets\Scripts\Game\GameView.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Auth\AuthUI.cs" />
     <Compile Include="Assets\Scripts\Protocols.cs" />
   </ItemGroup>
   <ItemGroup>
