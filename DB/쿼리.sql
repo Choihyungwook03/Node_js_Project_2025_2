@@ -1,0 +1,28 @@
+CREATE DATABASE `GameTest` /*!40100 COLLATE 'utf8mb4_0900_ai_ci' */;
+
+CREATE TABLE `player` (
+	`player_id` INT NOT NULL AUTO_INCREMENT.
+	`username` VARCHAR(50) NULL DEFAULT NULL,
+	`email` VARCHAR(50) NULL DEFAULT NULL,
+	`password_hash` VARCHAR(255) NULL DEFAULT NULL,
+	`created_at` TIMESTAMP NULL DEFAULT NULL,
+	`last_login` TIMESTAMP NULL DEFAULT NULL,
+	PRIMARY KEY (`player_id`),
+	UNIQUE INDEX `username` (`username`),
+	UNIQUE INDEX `email` (`email`)
+)
+
+INSERT INTO player(username, email, password_hash) VALUES
+('hero423', 'hero423@gmail.com', 'hashed_password4'),
+('hero523', 'hero523@gmail.com', 'hashed_password5'),
+('hero623', 'hero623@gmail.com', 'hashed_password6'),
+('hero723', 'hero723@gmail.com', 'hashed_password7')
+
+SELECT * FROM player
+SELECT username, last_login FROM player
+UPDATE player SET last_login = CURRENT_TIMESTAMP WHERE username = 'hero123'
+SELECT username, email FROM player WHERE username LIKE '%hero1'
+DELETE FROM player WHERE username = 'hero123'
+ALTER TABLE player ADD COLUMN `level` INT DEFAULT 1
+UPDATE player SET `level` = `level` + 1
+SELECT username, `level` FROM player ORDER BY `level` DESC LIMIT 1
