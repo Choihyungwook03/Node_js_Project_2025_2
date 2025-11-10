@@ -363,6 +363,7 @@
 "Assets/Scripts/Game/GameView.cs"
 "Assets/Scripts/Game/PlanetModel.cs"
 "Assets/Scripts/Game/PlayerModel.cs"
+"Assets/Scripts/GameDataManager.cs"
 "Assets/Scripts/Protocols.cs"
 "Assets/Scripts/UnityToNode.cs"
 -langversion:9.0

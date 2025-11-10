@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Game\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Game\PlanetModel.cs" />
     <Compile Include="Assets\Scripts\Game\GameView.cs" />
+    <Compile Include="Assets\Scripts\GameDataManager.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Auth\AuthUI.cs" />
     <Compile Include="Assets\Scripts\Protocols.cs" />
