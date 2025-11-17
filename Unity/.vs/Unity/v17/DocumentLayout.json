@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Node_js_Project_2025_2_1_1\\Unity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2_1_1\\unity\\assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2_1_1\\unity\\assets\\scripts\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|d:\\node_js_project_2025_2_1_1\\unity\\assets\\scripts\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|D:\\Node_js_Project_2025_2_1_1\\Unity\\assets\\scripts\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,6 +71,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkManager.cs",
+              "ToolTip": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NetworkManager.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAcwJsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:58:15.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameDataManager.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\GameDataManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameDataManager.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthUI.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Auth\\AuthUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Auth\\AuthUI.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AuthManager.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Auth\\AuthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Auth\\AuthManager.cs",
@@ -99,12 +116,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Auth\\AuthManager.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAswF0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T01:59:07.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T01:59:07.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Game\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameManager.cs",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameController.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Game\\GameController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameController.cs",
@@ -128,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameView.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Game\\GameView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameView.cs",
@@ -140,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameAPI.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Game\\GameAPI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameAPI.cs",
@@ -152,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PlayerModel.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Game\\PlayerModel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PlayerModel.cs",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlanetModel.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Game\\PlanetModel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PlanetModel.cs",
@@ -176,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UnityToNode.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\UnityToNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnityToNode.cs",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Protocols.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\Protocols.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Protocols.cs",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "basicMain.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\basicMain.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\basicMain.cs",
@@ -212,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "basicProtocols.cs",
               "DocumentMoniker": "D:\\Node_js_Project_2025_2_1_1\\Unity\\Assets\\Scripts\\basicProtocols.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\basicProtocols.cs",
