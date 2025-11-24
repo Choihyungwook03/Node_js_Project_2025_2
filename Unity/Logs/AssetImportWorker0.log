@@ -15,7 +15,7 @@ D:/Node_js_Project_2025_2_1_1/Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54170
+61674
 Successfully changed project path to: D:/Node_js_Project_2025_2_1_1/Unity
 D:/Node_js_Project_2025_2_1_1/Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ D:/Node_js_Project_2025_2_1_1/Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2984]  Target information:
+Player connection [25288]  Target information:
 
-Player connection [2984]  * "[IP] 172.16.5.25 [Port] 0 [Flags] 2 [Guid] 51053774 [EditorId] 51053774 [Version] 1048832 [Id] WindowsEditor(7,103-08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25288]  * "[IP] 172.16.5.89 [Port] 0 [Flags] 2 [Guid] 656430005 [EditorId] 656430005 [Version] 1048832 [Id] WindowsEditor(7,103-08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2984] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25288] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 7.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.58f1 (ed7f6eacb62e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/Resources/UnitySubsystems
@@ -73,44 +73,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010448 seconds.
-- Loaded All Assemblies, in  0.283 seconds
+Registered in 0.008176 seconds.
+- Loaded All Assemblies, in  0.295 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.192 seconds
-Domain Reload Profiling: 473ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.204 seconds
+Domain Reload Profiling: 498ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (98ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (92ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (193ms)
+	FinalizeReload (204ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (159ms)
+		SetupLoadedEditorAssemblies (167ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,706 +120,195 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.502 seconds
+- Loaded All Assemblies, in  0.619 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 904ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 1097ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (173ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (55.0 KB). Loaded Objects now: 3717.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 3.539300 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.133900 ms MarkObjects: 3.134600 ms  DeleteObjects: 0.089400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346958.819619 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(8e79947c9e98fad4582a031ecd086aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(8e79947c9e98fad4582a031ecd086aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '298f187207d585478b665f6e261bad9b') in 0.004705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 150.964775 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(8e79947c9e98fad4582a031ecd086aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(8e79947c9e98fad4582a031ecd086aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2a053ffc6d0a0248291cd3f29a847d68') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.359 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1008ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
+		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (304ms)
-		LoadAssemblies (262ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (404ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (310ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3249 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (55.0 KB). Loaded Objects now: 3715.
-Memory consumption went from 122.3 MB to 122.3 MB.
-Total: 2.659500 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.331300 ms  DeleteObjects: 0.067500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.637 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.212 seconds
-Domain Reload Profiling: 1844ms
-	BeginReloadAssembly (215ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (400ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1213ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (498ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (317ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (26ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3718.
-Memory consumption went from 121.5 MB to 121.5 MB.
-Total: 2.390600 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.136300 ms  DeleteObjects: 0.027600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2330486.642798 seconds.
-  path: Assets/NativeWebSocket/Assets
-  artifactKey: Guid(a48aa99ca0088ad4bbd8653e0b8236a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NativeWebSocket/Assets using Guid(a48aa99ca0088ad4bbd8653e0b8236a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8b9eac8f85fc1c00f53e30278b92a2bb') in 0.002113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.025831 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '670610fda69fcfa4511b82c2ae751cc1') in 0.000651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.357 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.632 seconds
-Domain Reload Profiling: 987ms
-	BeginReloadAssembly (124ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (214ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
+			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (4ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (633ms)
+	FinalizeReload (651ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (282ms)
+		SetupLoadedEditorAssemblies (278ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (183ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (198ms)
 			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3722.
-Memory consumption went from 121.3 MB to 121.2 MB.
-Total: 2.224100 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.955000 ms  DeleteObjects: 0.029800 ms)
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3720.
+Memory consumption went from 121.2 MB to 121.2 MB.
+Total: 2.281600 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.072700 ms MarkObjects: 2.016800 ms  DeleteObjects: 0.029700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: e4fa93220985ebf211f3da91d4ced24a -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: b885450e6aa79bc4cc04254fc94831be -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 940c6dbfbdf6a77bff7a231aaca0b34c -> 645e060c0e84ccf92186cdbb4e2a0309
 ========================================================================
 Received Import Request.
-  Time since last request: 360.489959 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0904e7622e6726a10742db0f4d67a728') in 0.002720 seconds
+  Time since last request: 73.036060 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(e418e47bb7c009949a9d2d73501a5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e418e47bb7c009949a9d2d73501a5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '28138f5af592a16c65d594d9b0f9cc32') in 0.001716 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 23.892169 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '55e23204a3f902690eaecb9633c07145') in 0.000603 seconds
+  Time since last request: 13.143584 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(22ef713b91a60e64fa1f6011d02657f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(22ef713b91a60e64fa1f6011d02657f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2b49dec0917e67494160ec1739b4834a') in 0.222682 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 24.698501 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0cb7055f7e78b34f73b90a4702b3af2b') in 0.000580 seconds
+  Time since last request: 20.423614 seconds.
+  path: Assets/Prefabs/NetPlayer.prefab
+  artifactKey: Guid(22ef713b91a60e64fa1f6011d02657f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NetPlayer.prefab using Guid(22ef713b91a60e64fa1f6011d02657f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b466ab2e7fbf38f7d0ec189344891edd') in 0.006015 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 306.105363 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f7044acb966ba39a3e800401d18082b8') in 0.000693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.639 seconds
+- Loaded All Assemblies, in  0.325 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.285 seconds
-Domain Reload Profiling: 1918ms
-	BeginReloadAssembly (214ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (316ms)
-		LoadAssemblies (434ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1286ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (518ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3725.
-Memory consumption went from 121.3 MB to 121.2 MB.
-Total: 2.308700 ms (FindLiveObjects: 0.165600 ms CreateObjectMapping: 0.068000 ms MarkObjects: 2.044600 ms  DeleteObjects: 0.029500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5d525dc3e663123496575b55b7ea250a -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Import Request.
-  Time since last request: 785.856821 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '868ba466e4635193f04edac19180844c') in 0.002183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.342 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.716 seconds
-Domain Reload Profiling: 1055ms
-	BeginReloadAssembly (124ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (222ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (4ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (716ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3728.
-Memory consumption went from 121.3 MB to 121.2 MB.
-Total: 2.686600 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.065600 ms MarkObjects: 2.440800 ms  DeleteObjects: 0.034600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3128d498ce7fa76d9b6ef28d239ef5f0 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Import Request.
-  Time since last request: 797.482900 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a54e5f9172f647edc296361ec51323ad') in 0.002380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.370 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.734 seconds
-Domain Reload Profiling: 1103ms
-	BeginReloadAssembly (122ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (191ms)
-		LoadAssemblies (252ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (735ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (281ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3731.
-Memory consumption went from 121.3 MB to 121.2 MB.
-Total: 3.570600 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.186700 ms MarkObjects: 3.199500 ms  DeleteObjects: 0.040000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Import Request.
-  Time since last request: 10.165924 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6fa7dbbec23c515efa5a6a825318ff91') in 0.002213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.398 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.670 seconds
-Domain Reload Profiling: 1066ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.687 seconds
+Domain Reload Profiling: 1011ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (277ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (670ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (179ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3734.
-Memory consumption went from 121.3 MB to 121.2 MB.
-Total: 2.344400 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.106500 ms  DeleteObjects: 0.027900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Import Request.
-  Time since last request: 278.998749 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4264eae987fdedb84280f31bb95bb783') in 0.002372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.374 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1177ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (252ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (806ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (357ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3737.
-Memory consumption went from 121.3 MB to 121.3 MB.
-Total: 3.987300 ms (FindLiveObjects: 0.466100 ms CreateObjectMapping: 0.140800 ms MarkObjects: 3.262800 ms  DeleteObjects: 0.116200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Import Request.
-  Time since last request: 13.415669 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(3d8d6b507bc657b4899194faf9b4b038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(3d8d6b507bc657b4899194faf9b4b038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4a0d0b328cb82f63debea74caedf8d42') in 0.001981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.693580 seconds.
-  path: Assets/Scenes/ChatScene.unity
-  artifactKey: Guid(0f99d9594b098714d954f10db59ca797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ChatScene.unity using Guid(0f99d9594b098714d954f10db59ca797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1e94ea525529e2e9758983a28b752a1f') in 0.000367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.333 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.726 seconds
-Domain Reload Profiling: 1057ms
-	BeginReloadAssembly (118ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
+	initialDomainReloadingComplete (24ms)
 	LoadAllAssembliesAndSetupDomain (153ms)
 		LoadAssemblies (214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
@@ -828,1416 +317,403 @@ Domain Reload Profiling: 1057ms
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (727ms)
+	FinalizeReload (688ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (326ms)
+		SetupLoadedEditorAssemblies (301ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (222ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (215ms)
 			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3740.
-Memory consumption went from 121.3 MB to 121.3 MB.
-Total: 2.152600 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.890400 ms  DeleteObjects: 0.030800 ms)
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3734.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.066100 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.821600 ms  DeleteObjects: 0.028700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 940c6dbfbdf6a77bff7a231aaca0b34c -> 645e060c0e84ccf92186cdbb4e2a0309
+========================================================================
+Received Import Request.
+  Time since last request: 66.383072 seconds.
+  path: Assets/Scripts/ChatServer
+  artifactKey: Guid(f78b3326664032144905df9f0568d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer using Guid(f78b3326664032144905df9f0568d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd76de1c4f47a92ff160e00faf969f557') in 0.001425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.593 seconds
+- Loaded All Assemblies, in  0.352 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.263 seconds
-Domain Reload Profiling: 1851ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 999ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (402ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (15ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1263ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (535ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (356ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3743.
-Memory consumption went from 121.5 MB to 121.5 MB.
-Total: 2.156500 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.073300 ms MarkObjects: 1.896200 ms  DeleteObjects: 0.030300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.324 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.699 seconds
-Domain Reload Profiling: 1021ms
-	BeginReloadAssembly (117ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (211ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (699ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (332ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3746.
-Memory consumption went from 121.5 MB to 121.5 MB.
-Total: 2.446100 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.145500 ms MarkObjects: 2.026500 ms  DeleteObjects: 0.031900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.320 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.673 seconds
-Domain Reload Profiling: 991ms
-	BeginReloadAssembly (113ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (152ms)
-		LoadAssemblies (210ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (673ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (323ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3749.
-Memory consumption went from 121.5 MB to 121.5 MB.
-Total: 2.385500 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.123200 ms  DeleteObjects: 0.033100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.339 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 993ms
-	BeginReloadAssembly (121ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (221ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (657ms)
+	FinalizeReload (650ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (322ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3752.
-Memory consumption went from 121.5 MB to 121.5 MB.
-Total: 2.583000 ms (FindLiveObjects: 0.160700 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.312900 ms  DeleteObjects: 0.030800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.332 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1037ms
-	BeginReloadAssembly (117ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (217ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (707ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (318ms)
+		SetupLoadedEditorAssemblies (286ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (213ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3755.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.038100 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.773700 ms  DeleteObjects: 0.030600 ms)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3737.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.132200 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.884200 ms  DeleteObjects: 0.025300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c086c505b509911642396bcfdcbdede6 -> 645e060c0e84ccf92186cdbb4e2a0309
 ========================================================================
 Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.323 seconds
+- Loaded All Assemblies, in  0.331 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1028ms
-	BeginReloadAssembly (120ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (211ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (707ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (323ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3758.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.110300 ms (FindLiveObjects: 0.155600 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.857900 ms  DeleteObjects: 0.029600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.325 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.720 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (115ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (214ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (721ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3761.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.153100 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.114400 ms MarkObjects: 1.840800 ms  DeleteObjects: 0.029900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.376 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1064ms
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 983ms
 	BeginReloadAssembly (117ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (246ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (691ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3764.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.867000 ms (FindLiveObjects: 0.139500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.617200 ms  DeleteObjects: 0.042200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.322 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.712 seconds
-Domain Reload Profiling: 1033ms
-	BeginReloadAssembly (118ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (210ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (713ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (325ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3767.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.171400 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.910100 ms  DeleteObjects: 0.028300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.706 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.245 seconds
-Domain Reload Profiling: 1945ms
-	BeginReloadAssembly (225ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (483ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1246ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3770.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 3.637000 ms (FindLiveObjects: 0.413800 ms CreateObjectMapping: 0.146200 ms MarkObjects: 3.033900 ms  DeleteObjects: 0.042000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.327 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.725 seconds
-Domain Reload Profiling: 1050ms
-	BeginReloadAssembly (117ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (213ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (725ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (336ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3773.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.171100 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.080800 ms MarkObjects: 1.893000 ms  DeleteObjects: 0.032500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.627 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.211 seconds
-Domain Reload Profiling: 1829ms
-	BeginReloadAssembly (206ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (299ms)
-		LoadAssemblies (409ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1211ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (511ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3776.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 3.503700 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.134100 ms MarkObjects: 2.886800 ms  DeleteObjects: 0.041700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.630 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.750 seconds
-Domain Reload Profiling: 1373ms
-	BeginReloadAssembly (214ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (301ms)
-		LoadAssemblies (416ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (750ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (318ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (213ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3779.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.098200 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.073700 ms MarkObjects: 1.816800 ms  DeleteObjects: 0.029300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.650 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.947 seconds
-Domain Reload Profiling: 1592ms
-	BeginReloadAssembly (227ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (438ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (948ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3782.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.088500 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.109300 ms MarkObjects: 1.787600 ms  DeleteObjects: 0.027600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.318 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.753 seconds
-Domain Reload Profiling: 1069ms
-	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
+		CreateAndSetChildDomain (18ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (208ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (217ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (753ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (217ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.1 KB). Loaded Objects now: 3785.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.231400 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.072800 ms MarkObjects: 1.955300 ms  DeleteObjects: 0.040400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.329 seconds
-Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.739 seconds
-Domain Reload Profiling: 1066ms
-	BeginReloadAssembly (122ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (209ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (739ms)
+	FinalizeReload (655ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (276ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3788.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.333700 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.121200 ms MarkObjects: 1.992000 ms  DeleteObjects: 0.032800 ms)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3740.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.230300 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.012600 ms  DeleteObjects: 0.025000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: b7b472afa5a08e4ecf112faaef5d354e -> 645e060c0e84ccf92186cdbb4e2a0309
+========================================================================
+Received Import Request.
+  Time since last request: 962.849329 seconds.
+  path: Assets/Scripts/ChatServer/NetworkManager.cs
+  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '52c7be70fc6bc697cca3cb5257029352') in 0.002418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 223.226979 seconds.
+  path: Assets/Scripts/ChatServer/NetworkManager.cs
+  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7586fb00fea1e22f8911a33fe5ced7b3') in 0.001260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 395.062908 seconds.
+  path: Assets/Scripts/ChatServer/NetworkManager.cs
+  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8f341a4c17fad91a9a4bd682d7aed990') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.833866 seconds.
+  path: Assets/Scripts/ChatServer/NetworkManager.cs
+  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '70afcef7398f7b54c32cfa97367b2b00') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 92.444866 seconds.
+  path: Assets/Scripts/ChatServer/NetworkManager.cs
+  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bc9bb41139375d35445b3c4fec2ff758') in 0.000410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.081585 seconds.
+  path: Assets/Scripts/ChatServer/NetworkManager.cs
+  artifactKey: Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/NetworkManager.cs using Guid(daf6bf14bc449df408b551a12e4e92c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8b44bbb57c1ba1831e9669677b06ab17') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3788.
-Memory consumption went from 71.4 MB to 71.4 MB.
-Total: 3.459400 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.180000 ms MarkObjects: 3.035400 ms  DeleteObjects: 0.023600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
-========================================================================
-Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.337 seconds
+- Loaded All Assemblies, in  0.347 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.795 seconds
-Domain Reload Profiling: 1129ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1039ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
+		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (222ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (226ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (795ms)
+	FinalizeReload (694ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (343ms)
+		SetupLoadedEditorAssemblies (268ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (232ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.1 KB). Loaded Objects now: 3791.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.527000 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.072400 ms MarkObjects: 2.212300 ms  DeleteObjects: 0.061900 ms)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3743.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.687000 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.167200 ms  DeleteObjects: 0.038400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3faff23c06fc486afe3d25a92f280d38 -> 645e060c0e84ccf92186cdbb4e2a0309
+========================================================================
+Received Import Request.
+  Time since last request: 43.433377 seconds.
+  path: Assets/Scripts/ChatServer/PlayerController.cs
+  artifactKey: Guid(8e79947c9e98fad4582a031ecd086aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChatServer/PlayerController.cs using Guid(8e79947c9e98fad4582a031ecd086aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '411981aef5f581341302813cee4bd199') in 0.002522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in  0.350 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.772 seconds
-Domain Reload Profiling: 1119ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 981ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (168ms)
-		LoadAssemblies (223ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (772ms)
+	FinalizeReload (634ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (335ms)
+		SetupLoadedEditorAssemblies (271ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.1 KB). Loaded Objects now: 3794.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.243000 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.978800 ms  DeleteObjects: 0.028400 ms)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3746.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.255100 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.092400 ms MarkObjects: 1.983900 ms  DeleteObjects: 0.025200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e54c13fadb5919935e62db84ff75d5a -> 645e060c0e84ccf92186cdbb4e2a0309
 ========================================================================
 Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.348 seconds
+- Loaded All Assemblies, in  0.341 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.721 seconds
-Domain Reload Profiling: 1067ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (228ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (225ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
+		AnalyzeDomain (9ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
@@ -2245,113 +721,263 @@ Domain Reload Profiling: 1067ms
 	FinalizeReload (722ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (325ms)
+		SetupLoadedEditorAssemblies (307ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (216ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (219ms)
 			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.1 KB). Loaded Objects now: 3797.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.513400 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.069200 ms MarkObjects: 2.240800 ms  DeleteObjects: 0.036600 ms)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3749.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.199600 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.081700 ms MarkObjects: 1.925300 ms  DeleteObjects: 0.034400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e54c13fadb5919935e62db84ff75d5a -> 645e060c0e84ccf92186cdbb4e2a0309
 ========================================================================
 Received Prepare
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Caller must complete domain reload
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.340 seconds
+- Loaded All Assemblies, in  0.323 seconds
 Native extension for WindowsStandalone target not found
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket-master/NativeWebSocket-master/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
-Assembly with name 'endel.nativewebsocket' already exists (Assets/NativeWebSocket/Assets/WebSocket/endel.nativewebsocket.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.745 seconds
-Domain Reload Profiling: 1083ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (222ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (746ms)
+	FinalizeReload (703ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
+		SetupLoadedEditorAssemblies (304ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3800.
-Memory consumption went from 121.6 MB to 121.6 MB.
-Total: 2.389300 ms (FindLiveObjects: 0.189300 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.062000 ms  DeleteObjects: 0.035500 ms)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3752.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.121100 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.871400 ms  DeleteObjects: 0.029300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/precompiled-assembly-types:endel.nativewebsocket: cebc370e14f5b4c93796071582c3137c -> 3067c6f5779a735cc3f2ecb55b10832e
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: 9c9f0ba1d78cfa396b22474477a7495d -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WebSocket.cs: 886f614e7c8791e6ca6319d1ba761ac9 -> 982a35740c1f41c0ccf6a1f449117d96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 645e060c0e84ccf92186cdbb4e2a0309 -> 9898c119d88604f89f06a2c4f69be32e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e54c13fadb5919935e62db84ff75d5a -> 645e060c0e84ccf92186cdbb4e2a0309
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3752.
+Memory consumption went from 75.6 MB to 75.6 MB.
+Total: 3.681200 ms (FindLiveObjects: 0.453900 ms CreateObjectMapping: 0.170200 ms MarkObjects: 3.046900 ms  DeleteObjects: 0.009000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e54c13fadb5919935e62db84ff75d5a -> 645e060c0e84ccf92186cdbb4e2a0309
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3755.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.693000 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.437000 ms  DeleteObjects: 0.028600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e54c13fadb5919935e62db84ff75d5a -> 645e060c0e84ccf92186cdbb4e2a0309
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.327 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1030ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (706ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (306ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 3758.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 2.668200 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.406400 ms  DeleteObjects: 0.027800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetworkManager.cs: 8f83bc83780eba2c1c832f9a7fd8dba9 -> 9c9f0ba1d78cfa396b22474477a7495d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e54c13fadb5919935e62db84ff75d5a -> 645e060c0e84ccf92186cdbb4e2a0309

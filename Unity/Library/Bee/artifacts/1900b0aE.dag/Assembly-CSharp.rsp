@@ -358,6 +358,8 @@
 "Assets/Scripts/Auth/AuthUI.cs"
 "Assets/Scripts/basicMain.cs"
 "Assets/Scripts/basicProtocols.cs"
+"Assets/Scripts/ChatServer/NetworkManager.cs"
+"Assets/Scripts/ChatServer/PlayerController.cs"
 "Assets/Scripts/Game/GameAPI.cs"
 "Assets/Scripts/Game/GameController.cs"
 "Assets/Scripts/Game/GameManager.cs"
@@ -365,7 +367,6 @@
 "Assets/Scripts/Game/PlanetModel.cs"
 "Assets/Scripts/Game/PlayerModel.cs"
 "Assets/Scripts/GameDataManager.cs"
-"Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/Protocols.cs"
 "Assets/Scripts/UnityToNode.cs"
 -langversion:9.0
