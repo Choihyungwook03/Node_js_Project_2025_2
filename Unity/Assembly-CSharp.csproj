@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game\GameController.cs" />
+    <Compile Include="Assets\Scripts\BattleNetworkManager.cs" />
     <Compile Include="Assets\Scripts\UnityToNode.cs" />
     <Compile Include="Assets\Scripts\ChatServer\NetworkManager.cs" />
     <Compile Include="Assets\Scripts\Auth\AuthManager.cs" />
@@ -72,7 +73,9 @@
     <Compile Include="Assets\Scripts\Game\GameView.cs" />
     <Compile Include="Assets\Scripts\GameDataManager.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+    <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\Auth\AuthUI.cs" />
+    <Compile Include="Assets\Scripts\BattleMessage.cs" />
     <Compile Include="Assets\Scripts\Protocols.cs" />
     <Compile Include="Assets\Scripts\ChatServer\PlayerController.cs" />
   </ItemGroup>
